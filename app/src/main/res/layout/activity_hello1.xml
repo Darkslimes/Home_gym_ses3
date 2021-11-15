@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B02E70BE"
+    android:scrollbarSize="18dp"
+    tools:context=".Hello1">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="163dp"
+        android:layout_marginEnd="95dp"
+        android:text="Step 1/5"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is your purpose?"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366" />
+
+    <Button
+        android:id="@+id/loss"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/custom_element"
+        android:drawablePadding="-20dp"
+        android:fontFamily="sans-serif"
+        android:stateListAnimator="@null"
+        android:text=" Weight loss"
+        android:textAllCaps="false"
+        android:textColor="@color/blue_bg"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/loss"
+        app:layout_constraintEnd_toEndOf="@+id/loss"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="@+id/loss"
+        app:layout_constraintTop_toTopOf="@+id/loss"
+        app:layout_constraintVertical_bias="0.37"
+        app:srcCompat="@drawable/scale"/>
+
+    <Button
+        android:id="@+id/fit"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/custom_element"
+        android:fontFamily="sans-serif"
+        android:stateListAnimator="@null"
+        android:text=" Keeping fit"
+        android:textAllCaps="false"
+        android:textColor="#6E9CD2"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <Button
+        android:id="@+id/muscle"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/custom_element"
+        android:fontFamily="sans-serif"
+        android:stateListAnimator="@null"
+        android:text=" Build muscle"
+        android:textAllCaps="false"
+        android:textColor="#6E9CD2"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fit"
+        app:layout_constraintEnd_toEndOf="@+id/fit"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="@+id/fit"
+        app:layout_constraintTop_toTopOf="@+id/fit"
+        app:layout_constraintVertical_bias="0.404"
+        app:srcCompat="@drawable/meditaziya" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/muscle"
+        app:layout_constraintEnd_toEndOf="@+id/muscle"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="@+id/muscle"
+        app:layout_constraintTop_toTopOf="@+id/muscle"
+        app:layout_constraintVertical_bias="0.481"
+        app:srcCompat="@drawable/musculi" />
+
+</android.support.constraint.ConstraintLayout>

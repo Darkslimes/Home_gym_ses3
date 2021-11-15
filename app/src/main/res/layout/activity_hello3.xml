@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B02E70BE"
+    tools:context=".hello3">
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="284dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="339dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="396dp"
+        android:background="@drawable/custom_element"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="10dp"
+            android:text="Newbie"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/blue_bg"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Just getting started"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/blue_bg"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="284dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="301dp"
+        android:background="@drawable/custom_element"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="10dp"
+            android:text="Keep On"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/blue_bg"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="1-2 times a week"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/blue_bg"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="163dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="582dp"
+        android:text="Step 4/5"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="269dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="519dp"
+        android:text="How often do you exercise?"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="284dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="509dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/custom_element"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="10dp"
+            android:text="Advanced"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/blue_bg"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="More than 3 times a week"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/blue_bg"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="284dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="45dp"
+        android:background="@drawable/custom_element"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="@color/blue_bg"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934" />
+
+</android.support.constraint.ConstraintLayout>
